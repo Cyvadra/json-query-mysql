@@ -2,7 +2,7 @@
 
 Copyright (c) 2018 Cyvadra (dengjie \at lifesdk.com)
 
-software published at 2018-08-14(UST)
+
 
 TimeOut PUBLIC LICENSE 由上海禀土科技发展有限公司起草，简称TOPL协议。
 
