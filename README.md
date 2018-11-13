@@ -8,7 +8,7 @@
 
 ​	and you can now use javascript to access db ***using plaintext password in client*** *!~ lol*
 
-​	 **everything in the code, just jump into it**
+​	 everything in the code, just jump into it
 
 
 
@@ -19,14 +19,13 @@
  - php return results
 
 > $_POST["secure_code"] = "password";
->
 > $_POST["sql"] = '{ "table":"your-table-name", "where":{ "a":1, "b":2, "only support equation":"well...yes" } }';
 
 
 
 ## Application scenarios
 
-​	支付鸨小程序 (alipay miniprograms, widely used in CN)
+​	支付宝小程序 (alipay miniprograms)
 
 ​	demo code might be uploaded later
 
