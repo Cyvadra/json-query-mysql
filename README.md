@@ -19,6 +19,7 @@
  - php return results
 
 > $_POST["secure_code"] = "password";
+>
 > $_POST["sql"] = '{ "table":"your-table-name", "where":{ "a":1, "b":2, "only support equation":"well...yes" } }';
 
 
