@@ -8,8 +8,6 @@
 
 ​	and you can now use javascript to access db ***using plaintext password in client*** *!~ lol*
 
-​	 everything in the code, just jump into it
-
 
 
 ## Procedure
@@ -19,20 +17,27 @@
  - php return results
 
 > $_POST["secure_code"] = "password";
->
-> $_POST["sql"] = '{ "table":"your-table-name", "where":{ "a":1, "b":2, "only support equation":"well...yes" } }';
+> 
+> 
+> $operation = Array( "table"=>"users", "where"=>Array("date"="11.11"), "set"=>Array("deposit"=>0) );
+> 
+> $sql = json_encode($operation);
+> 
+> $_POST["sql"] = $sql;
+> 
+> // post this to "update.php"
 
 
 
 ## Application scenarios
 
-​	支付宝小程序 (alipay miniprograms)
+​	支付宝小程序
 
-​	demo code might be uploaded later
+​	多语言hybrid场景
 
 
 
-*version: 201808*
+*version: 20181114*
 
 *contact: dj@lifesdk.com*
 
